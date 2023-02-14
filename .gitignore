@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# API Key ignore
+api_key.py
+test_api_key.py
+
+# .DS_Store
+.DS_Store
