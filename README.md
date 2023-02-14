@@ -29,18 +29,22 @@ With the weather data now collected we created bins for temperature and added an
 
 - Temperature
 
-We did linear regressions for temperature vs fare amount and trip distance and found weak correlations
+We did linear regressions for temperature vs fare amount and trip distance and found weak correlations.
 
 ![1_temp_vs_fare_regression](https://user-images.githubusercontent.com/119974799/218878997-5f5ab985-c96c-4d9c-8157-94b5f3675f31.png) ![2_temp_vs_dist_regression](https://user-images.githubusercontent.com/119974799/218879216-3c52caca-ba36-4487-ad60-20592b7eed8f.png)
 
 
-Since the correlations were weak we decided to do further statistical analysis
+Since the correlations were weak we decided to do further statistical analysis.
 
 Next we grouped the data by temperature interval to find the average fare amount and average trip distance for each interval. We then did Anova tests to see if there was any statistically significant difference between the groups for fare amount and trip distance, both p-values returned were greater than 0.05. We could not reject the null hypothesis that states that there is no statstically significant effect of temperature on average fare amount or trip distance in our data set.
 
 - Weather Types
 
 We did linear regressions models for trip distance vs fare amount for different weather types, namely clear, cloudy, rainy, snowy and misty weather. As expected trip distance was strongly correlated to fare amount for these weather types, however snowy weather correlation was moderately greater than the rest, which suggested that snowy weather resulted in increased pricing per distance.
+
+![8_clear_fare_dist_regression](https://user-images.githubusercontent.com/119974799/218879749-c3b7b5dc-4f4a-4705-a79f-fbe57bad9f06.png) ![11_snowy_fare_dist_regression](https://user-images.githubusercontent.com/119974799/218879791-63ecf90b-aa13-4cbb-be6f-3f153406df55.png)
+
+
 
 To dive deeper into this analysis we grouped the data by these weather types to find the average fare amount and average trip distance for each type of weather. We then proceeded to do Anova tests to see if there was any statistically significant difference between the average fare amounts and average trip distances of the weather type groups. In both cases the p-values returned were greater than 0.05 thus we could not reject the null hypothesis that weather type has no effect on average fare amount or average trip distance.
 
