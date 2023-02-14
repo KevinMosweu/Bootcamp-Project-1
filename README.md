@@ -34,6 +34,8 @@ We did linear regressions for temperature vs fare amount and trip distance and f
 ![1_temp_vs_fare_regression](https://user-images.githubusercontent.com/119974799/218878997-5f5ab985-c96c-4d9c-8157-94b5f3675f31.png)
 
 
+![2_temp_vs_dist_regression](https://user-images.githubusercontent.com/119974799/218879216-3c52caca-ba36-4487-ad60-20592b7eed8f.png)
+
 
 Since the correlations were weak we decided to do further statistical analysis
 
