@@ -52,13 +52,16 @@ To dive deeper into this analysis we grouped the data by these weather types to 
 
 We grouped the data by time interval and calculated summary statistics for fare amount and trip distance to see if time interval had any effect. There wasn't much variation between the mean and median values between the different time intervals for both fare amount and distance.
 
+![19_fare_timerange_boxplot](https://user-images.githubusercontent.com/119974799/218880197-df43c9e5-9a7c-473f-9b35-4316e663992f.png) ![21_dist_timerange_boxplot](https://user-images.githubusercontent.com/119974799/218880229-df339755-a8ad-40ef-a54e-a960410a5cc2.png)
+
+
 For further analysis we ran an Anova test comparing the different time intervals for average fare amount and the p-value returned was greater than 0.05, we could not reject the null hypothesis stating that time interval has no statistically significant effect on average fare amount in our data set.
 
 We also did an Anova test comparing the different time intervals for average trip distance and the p-value returned was less than 0.05. We rejected the null hypothesis stating that there is no statistically significant effect of time intervals on average trip distance.
 
 To explore further we ran one sample T tests for the different time interval groups against the population mean for trip distance. The T tests for the following time intervals returned p-values lower than 0.05, showing a statistically significant difference in average trip distance compared to the population average trip distance: 12 am- 4 am, 10 am - 1 pm, 1 pm - 5 pm, 8 pm - 11 pm, 11pm - 12 am. However the T tests for these following time groups returned p-values less than 0.05 and thus did not show a statistically significant difference in average trip distance from the average trip distance of the population: 4am-7am, 7am-10am and 5pm-8pm.
 
-## Conlusion
+## Conclusion
 
 Temperature and weather type did not seem to have an effect on fare amount or trip distance. For time intervals, there was no effect on fare amount, however there seemed to be an effect on trip distance for certain time intervals.
 
