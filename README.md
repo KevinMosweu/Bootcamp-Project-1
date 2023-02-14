@@ -31,6 +31,10 @@ With the weather data now collected we created bins for temperature and added an
 
 We did linear regressions for temperature vs fare amount and trip distance and found weak correlations
 
+![1_temp_vs_fare_regression](https://user-images.githubusercontent.com/119974799/218878997-5f5ab985-c96c-4d9c-8157-94b5f3675f31.png)
+
+
+
 Since the correlations were weak we decided to do further statistical analysis
 
 Next we grouped the data by temperature interval to find the average fare amount and average trip distance for each interval. We then did Anova tests to see if there was any statistically significant difference between the groups for fare amount and trip distance, both p-values returned were greater than 0.05. We could not reject the null hypothesis that states that there is no statstically significant effect of temperature on average fare amount or trip distance in our data set.
