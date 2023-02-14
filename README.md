@@ -58,3 +58,8 @@ Temperature and weather type did not seem to have an effect on fare amount or tr
 ## Limitations
 
 For more accuracy it would be beneficial to do analysis on a much larger set of data.
+
+## Collaborators
+Fahmida Billa
+Karan Anand
+Kevin Mosweu
