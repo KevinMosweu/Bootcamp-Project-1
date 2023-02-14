@@ -1,7 +1,7 @@
 # Uber VS Weather: New York City
 
 ## Description
----
+
 Since Uber is one of the most popular modes of transportation nowadays we wanted to look at the effect of different weather conditions on Uber pricing and usage. 
 
 We gathered Uber ride data from kaggle for New York City from 2009-2015. This data consisted of 200,000 records of Uber trips which included pick up and drop off locations by latitude and longitude, start date and time, fare amount and passenger count for each trip.
@@ -9,7 +9,6 @@ We gathered Uber ride data from kaggle for New York City from 2009-2015. This da
 Due to limitations we short listed the Uber ride data to 2900 records. Next using the pick up latitude and longitude and timestamps created from pick up date and time, we made API calls to OpenWeathermap's One call API 3.0 to collect weather data at the time and location of each trip.
 
 Finally with all the data gathered we performed statstical analysis to see if different temperatures, weather types and times of day had any effect on Uber pricing and usage.
----
 
 ## Phase 1: Cleaning the Uber ride data
 
